@@ -1,0 +1,1 @@
+## this the company website for beyond tech in next js tailwind and type script
