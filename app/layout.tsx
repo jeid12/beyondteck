@@ -74,6 +74,7 @@ export const viewport: Viewport = {
 };
 
 export const themeColor = "#F6A019";
+<link rel="manifest" href="/site.webmanifest" />
 export default function RootLayout({
   children,
 }: Readonly<{
