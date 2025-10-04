@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 // These values should be set in your .env.local file
-const GMAIL_USER = process.env.NEXT_PUBLIC_GMAIL_USER;
-const GMAIL_PASS = process.env.NEXT_PUBLIC_GMAIL_PASS;
+const GMAIL_USER = process.env.GMAIL_USER;
+const GMAIL_PASS = process.env.GMAIL_PASS;
 
 export async function POST(req: NextRequest) {
   try {
