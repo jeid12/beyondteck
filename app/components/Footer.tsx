@@ -66,7 +66,7 @@ export default function Footer() {
           <span>TECH</span>
         </div>
         <p className="text-lg text-gray-700 font-serif">
-          © Copyright 2022, All Rights Reserved by BeyondTech
+          © Copyright {new Date().getFullYear()}, All Rights Reserved by BeyondTech
         </p>
       </div>
     </footer>
